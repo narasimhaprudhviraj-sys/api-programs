@@ -1,0 +1,59 @@
+API & MICRO SERVICES LAB - ALL SUB-PROGRAMS
+Source: uploaded AUS 2025-26 lab manual
+
+Spring Boot baseline: 3.5.6 | Java 17
+Total: 10 experiments / 47 sub-parts
+
+01. Unit I Exp 1a) Setting up Spring Framework - Create and run Spring Boot application
+02. Unit I Exp 1b) Setting up Spring Framework - Configure project structure and dependencies
+03. Unit I Exp 1c) Setting up Spring Framework - Hello World application
+04. Unit I Exp 2a) Spring Modules - Explore Spring modules
+05. Unit I Exp 2b) Spring Modules - Spring JDBC data access
+06. Unit I Exp 2c) Spring Modules - Spring MVC web application
+07. Unit II Exp 3a) Auto Wiring and Logging - Create project
+08. Unit II Exp 3b) Auto Wiring and Logging - Define Employee and EmployeeService
+09. Unit II Exp 3c) Auto Wiring and Logging - @Service and @Component
+10. Unit II Exp 3d) Auto Wiring and Logging - @Autowired injection
+11. Unit II Exp 3e) Auto Wiring and Logging - Logback logging
+12. Unit II Exp 3f) Auto Wiring and Logging - Test auto-wiring and logging
+13. Unit II Exp 4a) AOP Advices - Create project
+14. Unit II Exp 4b) AOP Advices - Define Student and StudentService
+15. Unit II Exp 4c) AOP Advices - @Service and @Component
+16. Unit II Exp 4d) AOP Advices - @Aspect and @Before
+17. Unit II Exp 4e) AOP Advices - Apply AOP advice
+18. Unit II Exp 4f) AOP Advices - Test AOP
+19. Unit III Exp 5a) Spring Data JPA - Create project
+20. Unit III Exp 5b) Spring Data JPA - Add JPA dependency
+21. Unit III Exp 5c) Spring Data JPA - DB properties
+22. Unit III Exp 5d) Spring Data JPA - User entity
+23. Unit III Exp 5e) Spring Data JPA - UserRepository
+24. Unit III Exp 5f) Spring Data JPA - CRUD test
+25. Unit III Exp 6a) Pagination and Sorting - Repository pagination methods
+26. Unit III Exp 6b) Pagination and Sorting - Pageable and Sort
+27. Unit III Exp 6c) Pagination and Sorting - Test pagination/sorting
+28. Unit III Exp 6d) Pagination and Sorting - Custom @Query sorting
+29. Unit IV Exp 7a) Simple RESTful Web Service - Create project
+30. Unit IV Exp 7b) Simple RESTful Web Service - User resource
+31. Unit IV Exp 7c) Simple RESTful Web Service - UserController
+32. Unit IV Exp 7d) Simple RESTful Web Service - CRUD
+33. Unit IV Exp 7e) Simple RESTful Web Service - Postman/curl test
+34. Unit IV Exp 8a) SOAP Web Service - Create project
+35. Unit IV Exp 8b) SOAP Web Service - UserService interface
+36. Unit IV Exp 8c) SOAP Web Service - @Service implementation
+37. Unit IV Exp 8d) SOAP Web Service - WSDL
+38. Unit IV Exp 8e) SOAP Web Service - SoapUI test
+39. Unit V Exp 9a) Simple Spring REST Controller - Create project
+40. Unit V Exp 9b) Simple Spring REST Controller - User resource
+41. Unit V Exp 9c) Simple Spring REST Controller - UserController
+42. Unit V Exp 9d) Simple Spring REST Controller - CRUD
+43. Unit V Exp 9e) Simple Spring REST Controller - Postman/curl test
+44. Unit V Exp 10a) @RequestBody and ResponseEntity - REST controller
+45. Unit V Exp 10b) @RequestBody and ResponseEntity - @RequestBody JSON
+46. Unit V Exp 10c) @RequestBody and ResponseEntity - ResponseEntity
+47. Unit V Exp 10d) @RequestBody and ResponseEntity - Postman/curl test
+
+IMPORTANT:
+1. Import each folder separately in Eclipse using Maven > Existing Maven Projects.
+2. Run one server project at a time if it uses port 8080.
+3. Projects use Spring Boot 3.5.6 + Java 17 to avoid the Spring Boot 4.1.1 dependency issues seen in the previous setup.
+4. The manual itself has setup/conceptual sub-parts; those are included as separate folders and marked in README where no independent executable is specified.

@@ -1,0 +1,1 @@
+package com.example.demo.model; public class Student { private String name="John Doe"; private String rollNo="251AI024"; public String getName(){return name;} public String getRollNo(){return rollNo;} }

@@ -1,0 +1,1 @@
+package com.example.demo.service; import com.example.demo.model.Student; import org.springframework.stereotype.Service; @Service public class StudentService { private final Student student=new Student(); public void displayStudentDetails(){System.out.println("[Service Method] Core logic: Student name is "+student.getName()+" with Roll Series: "+student.getRollNo());} }

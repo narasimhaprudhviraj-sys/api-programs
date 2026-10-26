@@ -1,0 +1,1 @@
+package com.example.demo; import com.example.demo.service.EmployeeService; import org.springframework.boot.CommandLineRunner; import org.springframework.stereotype.Component; @Component public class Runner implements CommandLineRunner { private final EmployeeService s; public Runner(EmployeeService s){this.s=s;} public void run(String...a){s.displayEmployeeDetails();} }

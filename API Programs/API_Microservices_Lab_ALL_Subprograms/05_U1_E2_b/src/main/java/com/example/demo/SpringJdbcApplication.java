@@ -1,0 +1,4 @@
+package com.example.demo;
+import org.springframework.boot.*; import org.springframework.boot.autoconfigure.*; import org.springframework.context.annotation.Bean; import org.springframework.jdbc.core.JdbcTemplate;
+@SpringBootApplication public class SpringJdbcApplication { public static void main(String[] args){SpringApplication.run(SpringJdbcApplication.class,args);}
+@Bean CommandLineRunner run(JdbcTemplate jdbc){return a->{jdbc.execute("create table products(id bigint primary key,name varchar(100),price double)"); jdbc.update("insert into products values(?,?,?)",1,"Laptop",75000.0); jdbc.update("insert into products values(?,?,?)",2,"Phone",25000.0); jdbc.query("select * from products",rs->{System.out.println("Product: "+rs.getLong("id")+" | "+rs.getString("name")+" | "+rs.getDouble("price"));});};}}

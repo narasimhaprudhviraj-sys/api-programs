@@ -1,0 +1,8 @@
+1) Install/verify JDK 17 and Maven support in Eclipse.
+2) Extract this ZIP.
+3) Eclipse: File > Import > Maven > Existing Maven Projects.
+4) Import one project folder at a time (or select the root and import all discovered Maven projects).
+5) Maven > Update Project.
+6) Run the DemoApplication class for web/console projects.
+7) For JUnit sub-programs, Run As > JUnit Test.
+8) For REST, use browser/Postman/curl. For SOAP, open /ws/users.wsdl and then use SoapUI.

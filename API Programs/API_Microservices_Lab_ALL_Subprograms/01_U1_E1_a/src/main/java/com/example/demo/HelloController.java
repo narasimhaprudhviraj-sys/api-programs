@@ -1,0 +1,6 @@
+package com.example.demo;
+import org.springframework.web.bind.annotation.*;
+@RestController public class HelloController {
+@GetMapping("/") public String home(){return "Welcome to Spring Boot Application";}
+@GetMapping("/hello") public String hello(){return "Hello World from Spring Boot!";}
+}

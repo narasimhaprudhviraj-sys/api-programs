@@ -1,0 +1,1 @@
+package com.example.demo.service; import org.springframework.stereotype.Service; @Service public class UserServiceImpl implements UserService { public String getUser(Long id){return id==1?"Rahul Kumar|rahul@aditya.edu.in":"User not found";} }

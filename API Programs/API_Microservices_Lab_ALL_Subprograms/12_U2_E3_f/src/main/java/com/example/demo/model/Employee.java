@@ -1,0 +1,1 @@
+package com.example.demo.model; import org.springframework.stereotype.Component; @Component public class Employee { public String toString(){return "Employee [ID=101, Name=John Doe]";} }
